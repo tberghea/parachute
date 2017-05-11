@@ -17,7 +17,7 @@
 
 \title{ Discovery of the first quadruple gravitationsally lensed quasar candidate with Pan-STARRS }
 
-\author{C. T. Berghea\altaffilmark{1}, G. Nelson\altaffilmark{1}, C. E. Rusu\altaffilmark{2}, C. R. Keeton\altaffilmark{3}}
+\author{C. T. Berghea\altaffilmark{1}, G. Nelson\altaffilmark{1}, C. E. Rusu\altaffilmark{2}, C. R. Keeton\altaffilmark{3}, R. P. Dudik\altaffilmark{1}}
 
 \altaffiltext{1}{U.S. Naval Observatory (USNO), 3450 Massachusetts Avenue NW, Washington, DC 20392, USA}
 \altaffiltext{2}{Department of Physics, University of California, Davis, CA 95616, USA}
@@ -28,7 +28,7 @@
 
 \begin{abstract}
 
-We report the serendipitous discovery of the first quadruple gravitational lens candidate in the Pan-STARRS images. The lensing galaxy is detected by fitting the lens in i, z and y bands using the Hostlens software. There are small differences in the colors of the four quasars images but they are generally consistent with a low redshift quasar at about z $\sim$ 0.8 based on photometric redshift estimates. We model the lens with both an isothermal ellipsoid (SIE) or a isothermal sphere with shear. While both models provide relatively good fits to the data, there are important discrepancies in the fluxes, especially betwen the B and C components which the models predict should show similar fluxes. These can be explained by differential extinction, microlensing by stars and millilensing due to the dark matter substructure. 
+We report the serendipitous discovery of the first quadruple gravitational lens candidate in the Pan-STARRS images. The lensing galaxy is detected by fitting the lens in i, z and y bands using the Hostlens software. There are small differences in the colors of the four quasars images but they are generally consistent quasar at about z $\sim$ 2.6 based on photometric redshift estimates. The lensing galaxy is very faint but we used galaxy templates to estimate z $\sim$ 0.6. We model the lens with both an isothermal ellipsoid (SIE) or a isothermal sphere with shear. While both models provide relatively good fits to the data, there are important discrepancies in the fluxes, especially betwen the B and C components which the models predict should show similar fluxes. These can be explained by differential extinction, microlensing by stars and millilensing due to the dark matter substructure. 
 \end{abstract}
 
 \keywords{black hole physics --- galaxies: individual (Holmberg IX) --- X-rays: binaries}
@@ -55,12 +55,13 @@ The PS1 images (Fig. 1) strongly suggest that the lensed object is a quasar and 
 
 From the Hostlens fits we calculate absolute photometry and relative astrometry for all images. The measure magnitudes are corrected for extinction using the extinction maps of \citet{sch11}.
 
+{\bf This has to be changed to use Le Phare method }
 To calculate photometric redshift we used the method of \citet{wu10}, which is based on Sloan Digital Sky survey (SDSS) colors. PS1 bands are similar but not identical to the SDSS bands and we used the corrections of \citep{fin16} to obtain magnitudes in the SDSS system. Folowing \citet{wu10} we minimize ${\chi}^2$ to obtain redshits for each of the sources. We plot $\chi^2_{\nu}$ in Figure~\ref{redshift} for each quasar image and also fitting all togehter. In the latter case we obtain the best fit at z $\sim$ 0.83, but this is not well constrained, the 1~$\sigma$ confidence level is (0.625,  2.875). We note that there is a second minimum at z $\sim$ 2.6. $\chi^2_{\nu}$ is 0.56 and 1.07 for the two minima, respectively.
 
 The photometric, astrometric and redshift results are summarized in Table~1. 
 
 Due to blending of A, B and C components, both Gaia \citep{gaia} and PS1 catalogs identified sources A and D only. 
-PS1 psf magnitudes for A are in general smaller than what we obtained probably due to blending, but for D they are very similar: 18.599$\pm$0.013,  18.153$\pm$0.002,  18.079$\pm$0.007,  17.843$\pm$0.0093,  17.534$\pm$0.023. Gaia G magnitudes are 15.17 and 18.13 for A and D, respectively.
+PS1 psf magnitudes for A are in general smaller than what we obtained probably due to blending, but for D they are very similar to our uncorrected magnitudes: 18.599$\pm$0.013,  18.153$\pm$0.002,  18.079$\pm$0.007,  17.843$\pm$0.0093,  17.534$\pm$0.023. Gaia G magnitudes are 15.17 and 18.13 for A and D, respectively.
 We will use the Gaia position for component D as absolute astrometric reference position for our lens: 26.7923069811, 46.5112731937. The errors for this position are 15.6 and 8.9 mas, respectively.
 
 The lens is also bright in infrared, the unresolved WISE magnitudes for the lens are: 11.524$\pm$0.022, 10.434$\pm$0.020, 6.769$\pm$0.015 ,4.518$\pm$0.023  in the WISE bands $-$ W1, W2, W3 and W4, respectively. The WISE colors match very well those of quasars at low redshift \citep[e.g.][]{mat12}.
@@ -189,10 +190,10 @@ $\Delta$y &  3.2913  &  2.8116  &  3.0707  &  0.0 \\
 
 \tablecomments{
 The first four columns are the four quasar images and the fifth column is the lens.
-The first five rows are magnitude measurements derived using Galfit and recalibrated using PS1 photometry for nearby stars and corrected using NED extinction calculator.
-The following three rows are relative i magnitudes and relative positions in arcseconds obtained from Galfit. The reference magnitude is the i magnitude of source A and reference position is the average between the i and y bands for source A.
+The first five rows are magnitude measurements derived using Hostlens and corrected using NED extinction calculator.
+The following three rows are relative i magnitudes and relative positions in arcseconds averaged between the i and y bands. 
 The next row shows the photometric redshift estimates following \citet{wu10}.
-Following rows shows the model prediction for position and relative magnitudes for the two gravitational models we tried.
+Following rows shows the model prediction for position and relative magnitudes for two gravitational models.
 }
 \end{deluxetable}
 
@@ -210,7 +211,7 @@ PS1 images of the lens candidate. Left: is a color coded close image R-y, G-i, B
 
 \begin{figure}
 \epsscale{1.1}
-\plottwo{redshift5.eps}{redshift4.eps}
+\plottwo{redshiftseparate.eps}{redshifttogether.eps}
 \caption{
 Photometric redshift estimates. 
 Left: individually for each image; right: for all images simultanesously}

@@ -1,20 +1,20 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 MAY 2017 18:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2017.2.22)  11 MAY 2017 09:01
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**paper4.tex
+**paper4
 (./paper4.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
 (./aastex.cls
 Document Class: aastex 2005/06/22 5.2/AAS markup document class
 Class aastex Info: Original \LaTeX2.09 style by Chris Biemesderfer (chris@seago
 at.com). Adapted to \LaTeXe by A. Ogawa (ogawa@teleport.com) on input line 83.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -28,48 +28,40 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/latexsym.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: dvips.def on input line 91.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count87
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup5
@@ -77,32 +69,32 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip43
 \bibsep=\skip44
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count88
+\c@NAT@ctr=\count87
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks16
 \verbatim@line=\toks17
 \verbatim@in@stream=\read1
 )
 \@slugcmmntwidth=\dimen105
 \abstract@box=\box26
-\c@editornote=\count89
-\c@cureqno=\count90
+\c@editornote=\count88
+\c@cureqno=\count89
 \tnotemarkskip=\skip45
 \@abovenoteskip=\dimen106
 \pt@box=\box27
 \pt@width=\dimen107
-\pt@line=\count91
-\pt@column=\count92
-\pt@nlines=\count93
-\pt@ncol=\count94
-\pt@page=\count95
+\pt@line=\count90
+\pt@column=\count91
+\pt@nlines=\count92
+\pt@ncol=\count93
+\pt@page=\count94
 \tabbaseskip=\dimen108
 \pt@tmpcapwidth=\dimen109
 \spew@tblnotesbox=\box28
@@ -113,36 +105,36 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \captionbox=\box30
 \pt@reduceline=\dimen113
 \extra@vspace=\dimen114
-\c@plate=\count96
+\c@plate=\count95
 \my@footins=\box31
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks18
 \ex@=\dimen115
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen116
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count97
+\inf@bad=\count96
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count98
-\leftroot@=\count99
+\uproot@=\count97
+\leftroot@=\count98
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count100
-\DOTSCASE@=\count101
+\classnum@=\count99
+\DOTSCASE@=\count100
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -151,15 +143,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen117
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count102
-\c@MaxMatrixCols=\count103
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
 \dotsspace@=\muskip10
-\c@parentequation=\count104
-\dspbrk@lvl=\count105
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
 \tag@help=\toks19
-\row@=\count106
-\column@=\count107
-\maxfields@=\count108
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
 \andhelp@=\toks20
 \eqnshift@=\dimen118
 \alignsep@=\dimen119
@@ -173,8 +165,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
-)
-(./paper4.aux
+) (./paper4.aux
 
 LaTeX Warning: Label `galfitg' multiply defined.
 
@@ -193,315 +184,78 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
- (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count109
-\scratchdimen=\dimen124
-\scratchbox=\box34
-\nofMPsegments=\count110
-\nofMParguments=\count111
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count112
-\MPscratchDim=\dimen125
-\MPnumerator=\count113
-\makeMPintoPDFobject=\count114
-\everyMPtoPDFconversion=\toks24
-) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 AAS manuscript substyle, v5.2 <12 Dec 2003>.
 LaTeX Font Info:    Try loading font information for U+lasy on input line 31.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 31.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 31.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+] [2
 
 ] [3
 
-] [4] [5]
-[6] [7] [8
+] [4]
+[5] [6] [7] [8
 
 ] [9]
 Table 1 has been set to width 338.77771pt
 Plottwo included the files lens3.eps lens4.eps
-Package epstopdf Info: Source file: <lens3.eps>
-(epstopdf)                    date: 2017-05-08 18:45:41
-(epstopdf)                    size: 163189 bytes
-(epstopdf)             Output file: <lens3-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-08 18:47:12
-(epstopdf)                    size: 24120 bytes
-(epstopdf)             Command: <repstopdf --outfile=lens3-eps-converted-to.pdf
- lens3.eps>
-(epstopdf)             \includegraphics on input line 202.
-Package epstopdf Info: Output file is already uptodate.
-<lens3-eps-converted-to.pdf, id=41, 543.02875pt x 543.02875pt>
-File: lens3-eps-converted-to.pdf Graphic file (type pdf)
-
-<use lens3-eps-converted-to.pdf>
-Package pdftex.def Info: lens3-eps-converted-to.pdf used on input line 202.
-(pdftex.def)             Requested size: 232.52841pt x 232.52835pt.
-Package epstopdf Info: Source file: <lens4.eps>
-(epstopdf)                    date: 2017-05-08 18:45:41
-(epstopdf)                    size: 662387 bytes
-(epstopdf)             Output file: <lens4-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-08 18:47:13
-(epstopdf)                    size: 78050 bytes
-(epstopdf)             Command: <repstopdf --outfile=lens4-eps-converted-to.pdf
- lens4.eps>
-(epstopdf)             \includegraphics on input line 202.
-Package epstopdf Info: Output file is already uptodate.
-
-<lens4-eps-converted-to.pdf, id=42, 543.02875pt x 541.02126pt>
-File: lens4-eps-converted-to.pdf Graphic file (type pdf)
-
-<use lens4-eps-converted-to.pdf>
-Package pdftex.def Info: lens4-eps-converted-to.pdf used on input line 202.
-(pdftex.def)             Requested size: 232.52841pt x 231.66873pt.
-
-Plottwo included the files redshift5.eps redshift4.eps
-Package epstopdf Info: Source file: <redshift5.eps>
-(epstopdf)                    date: 2017-05-08 18:45:41
-(epstopdf)                    size: 145129 bytes
-(epstopdf)             Output file: <redshift5-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-08 18:47:14
-(epstopdf)                    size: 71349 bytes
-(epstopdf)             Command: <repstopdf --outfile=redshift5-eps-converted-to
-.pdf redshift5.eps>
-(epstopdf)             \includegraphics on input line 213.
-Package epstopdf Info: Output file is already uptodate.
-<redshift5-eps-converted-to.pdf, id=43, 580.1675pt x 451.6875pt>
-File: redshift5-eps-converted-to.pdf Graphic file (type pdf)
-
-<use redshift5-eps-converted-to.pdf>
-Package pdftex.def Info: redshift5-eps-converted-to.pdf used on input line 213.
-
-(pdftex.def)             Requested size: 232.52841pt x 181.03708pt.
-Package epstopdf Info: Source file: <redshift4.eps>
-(epstopdf)                    date: 2017-05-08 18:45:41
-(epstopdf)                    size: 115564 bytes
-(epstopdf)             Output file: <redshift4-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-08 18:47:15
-(epstopdf)                    size: 54636 bytes
-(epstopdf)             Command: <repstopdf --outfile=redshift4-eps-converted-to
-.pdf redshift4.eps>
-(epstopdf)             \includegraphics on input line 213.
-Package epstopdf Info: Output file is already uptodate.
-
-<redshift4-eps-converted-to.pdf, id=44, 645.41125pt x 503.8825pt>
-File: redshift4-eps-converted-to.pdf Graphic file (type pdf)
-
-<use redshift4-eps-converted-to.pdf>
-Package pdftex.def Info: redshift4-eps-converted-to.pdf used on input line 213.
-
-(pdftex.def)             Requested size: 232.52841pt x 181.53595pt.
-
+File: lens3.eps Graphic file (type eps)
+<lens3.eps>
+File: lens4.eps Graphic file (type eps)
+ <lens4.eps>
+Plottwo included the files redshiftseparate.eps redshifttogether.eps
+File: redshiftseparate.eps Graphic file (type eps)
+<redshiftseparate.eps>
+File: redshifttogether.eps Graphic file (type eps)
+ <redshifttogether.eps>
 Plotone included the file model.eps
-Package epstopdf Info: Source file: <model.eps>
-(epstopdf)                    date: 2017-05-08 18:45:41
-(epstopdf)                    size: 93187 bytes
-(epstopdf)             Output file: <model-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-08 18:47:16
-(epstopdf)                    size: 58745 bytes
-(epstopdf)             Command: <repstopdf --outfile=model-eps-converted-to.pdf
- model.eps>
-(epstopdf)             \includegraphics on input line 223.
-Package epstopdf Info: Output file is already uptodate.
-<model-eps-converted-to.pdf, id=45, 434.62375pt x 434.62375pt>
-File: model-eps-converted-to.pdf Graphic file (type pdf)
-
-<use model-eps-converted-to.pdf>
-Package pdftex.def Info: model-eps-converted-to.pdf used on input line 223.
-(pdftex.def)             Requested size: 281.85585pt x 281.87206pt.
-
+File: model.eps Graphic file (type eps)
+<model.eps>
 Plotone included the file hostlens.eps
-Package epstopdf Info: Source file: <hostlens.eps>
-(epstopdf)                    date: 2017-05-08 18:45:41
-(epstopdf)                    size: 137656 bytes
-(epstopdf)             Output file: <hostlens-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-08 18:47:16
-(epstopdf)                    size: 30196 bytes
-(epstopdf)             Command: <repstopdf --outfile=hostlens-eps-converted-to.
-pdf hostlens.eps>
-(epstopdf)             \includegraphics on input line 231.
-Package epstopdf Info: Output file is already uptodate.
-<hostlens-eps-converted-to.pdf, id=46, 1490.56876pt x 511.9125pt>
-File: hostlens-eps-converted-to.pdf Graphic file (type pdf)
-
-<use hostlens-eps-converted-to.pdf>
-Package pdftex.def Info: hostlens-eps-converted-to.pdf used on input line 231.
-(pdftex.def)             Requested size: 516.73335pt x 177.46141pt.
-
-Overfull \hbox (46.97836pt too wide) in paragraph at lines 231--233
+File: hostlens.eps Graphic file (type eps)
+<hostlens.eps>
+Overfull \hbox (46.97836pt too wide) in paragraph at lines 232--234
  [][] 
  []
 
 Plotone included the file galfitgSIE.eps
-Package epstopdf Info: Source file: <galfitgSIE.eps>
-(epstopdf)                    date: 2017-05-08 18:45:41
-(epstopdf)                    size: 283207 bytes
-(epstopdf)             Output file: <galfitgSIE-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-08 18:47:17
-(epstopdf)                    size: 23224 bytes
-(epstopdf)             Command: <repstopdf --outfile=galfitgSIE-eps-converted-t
-o.pdf galfitgSIE.eps>
-(epstopdf)             \includegraphics on input line 240.
-Package epstopdf Info: Output file is already uptodate.
-<galfitgSIE-eps-converted-to.pdf, id=47, 543.02875pt x 274.02374pt>
-File: galfitgSIE-eps-converted-to.pdf Graphic file (type pdf)
-
-<use galfitgSIE-eps-converted-to.pdf>
-Package pdftex.def Info: galfitgSIE-eps-converted-to.pdf used on input line 240
-.
-(pdftex.def)             Requested size: 422.77661pt x 213.3488pt.
-
+File: galfitgSIE.eps Graphic file (type eps)
+<galfitgSIE.eps>
 Plotone included the file galfitgSIE1.eps
-Package epstopdf Info: Source file: <galfitgSIE1.eps>
-(epstopdf)                    date: 2017-05-08 18:45:41
-(epstopdf)                    size: 822364 bytes
-(epstopdf)             Output file: <galfitgSIE1-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-08 18:47:18
-(epstopdf)                    size: 80331 bytes
-(epstopdf)             Command: <repstopdf --outfile=galfitgSIE1-eps-converted-
-to.pdf galfitgSIE1.eps>
-(epstopdf)             \includegraphics on input line 248.
-Package epstopdf Info: Output file is already uptodate.
-<galfitgSIE1-eps-converted-to.pdf, id=48, 544.0325pt x 278.03876pt>
-File: galfitgSIE1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use galfitgSIE1-eps-converted-to.pdf>
-Package pdftex.def Info: galfitgSIE1-eps-converted-to.pdf used on input line 24
-8.
-(pdftex.def)             Requested size: 422.77661pt x 216.08025pt.
-
+File: galfitgSIE1.eps Graphic file (type eps)
+<galfitgSIE1.eps>
 Plotone included the file galfitgshear.eps
-Package epstopdf Info: Source file: <galfitgshear.eps>
-(epstopdf)                    date: 2017-05-08 18:45:41
-(epstopdf)                    size: 847556 bytes
-(epstopdf)             Output file: <galfitgshear-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-08 18:47:19
-(epstopdf)                    size: 80229 bytes
-(epstopdf)             Command: <repstopdf --outfile=galfitgshear-eps-converted
--to.pdf galfitgshear.eps>
-(epstopdf)             \includegraphics on input line 258.
-Package epstopdf Info: Output file is already uptodate.
-<galfitgshear-eps-converted-to.pdf, id=49, 544.0325pt x 282.05376pt>
-File: galfitgshear-eps-converted-to.pdf Graphic file (type pdf)
-
-<use galfitgshear-eps-converted-to.pdf>
-Package pdftex.def Info: galfitgshear-eps-converted-to.pdf used on input line 2
-58.
-(pdftex.def)             Requested size: 422.77661pt x 219.20053pt.
-
+File: galfitgshear.eps Graphic file (type eps)
+<galfitgshear.eps>
 Plotone included the file galfitgshear1.eps
-Package epstopdf Info: Source file: <galfitgshear1.eps>
-(epstopdf)                    date: 2017-05-08 18:45:41
-(epstopdf)                    size: 108372 bytes
-(epstopdf)             Output file: <galfitgshear1-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-08 18:47:20
-(epstopdf)                    size: 22624 bytes
-(epstopdf)             Command: <repstopdf --outfile=galfitgshear1-eps-converte
-d-to.pdf galfitgshear1.eps>
-(epstopdf)             \includegraphics on input line 266.
-Package epstopdf Info: Output file is already uptodate.
-<galfitgshear1-eps-converted-to.pdf, id=50, 1107.13625pt x 552.0625pt>
-File: galfitgshear1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use galfitgshear1-eps-converted-to.pdf>
-Package pdftex.def Info: galfitgshear1-eps-converted-to.pdf used on input line 
-266.
-(pdftex.def)             Requested size: 422.77661pt x 210.81363pt.
- [10
+File: galfitgshear1.eps Graphic file (type eps)
+<galfitgshear1.eps> [10
 
 
-] [11] [12 <./lens3-eps-converted-to.pdf> <./lens4-eps-converted-to.pdf> <./red
-shift5-eps-converted-to.pdf> <./redshift4-eps-converted-to.pdf>] [13 <./model-e
-ps-converted-to.pdf>] [14 <./hostlens-eps-converted-to.pdf> <./galfitgSIE-eps-c
-onverted-to.pdf>] [15 <./galfitgSIE1-eps-converted-to.pdf> <./galfitgshear-eps-
-converted-to.pdf>] [16 <./galfitgshear1-eps-converted-to.pdf>] (./paper4.aux)
+] [11] [12] [13] [14] [15] [16] (./paper4.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3416 strings out of 493089
- 44211 string characters out of 6134842
- 113891 words of memory out of 5000000
- 6843 multiletter control sequences out of 15000+600000
- 11428 words of font info for 46 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 38i,9n,28p,1133b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on paper4.pdf (16 pages, 653161 bytes).
-PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2444 strings out of 495064
+ 27899 string characters out of 3182224
+ 85974 words of memory out of 3000000
+ 5615 multiletter control sequences out of 15000+200000
+ 11428 words of font info for 46 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 32i,9n,28p,1129b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+Output written on paper4.dvi (16 pages, 22544 bytes).
