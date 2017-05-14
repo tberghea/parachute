@@ -1,8 +1,36 @@
 
-*.pdf
-
 *.aux
 
 *.log
 
-*.pdf
+paper4.pdf
+
+redshift4-eps-converted-to.pdf
+
+redshiftseparate-eps-converted-to.pdf
+
+redshift5-eps-converted-to.pdf
+
+redshifttogether-eps-converted-to.pdf
+
+paper4.pdf
+
+modelphotometry-eps-converted-to.pdf
+
+model-eps-converted-to.pdf
+
+lens4-eps-converted-to.pdf
+
+lens3-eps-converted-to.pdf
+
+critcrv1-eps-converted-to.pdf
+
+galfitgshear-eps-converted-to.pdf
+
+galfitgshear1-eps-converted-to.pdf
+
+galfitgSIE-eps-converted-to.pdf
+
+galfitgSIE1-eps-converted-to.pdf
+
+hostlens-eps-converted-to.pdf
