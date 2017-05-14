@@ -28,19 +28,21 @@
 
 \begin{abstract}
 
-We report the serendipitous discovery of the first quadruple gravitational lens candidate in the Pan-STARRS images. The lensing galaxy is detected by fitting the lens in i, z and y bands using the Hostlens software. There are small differences in the colors of the four quasars images but they are generally consistent quasar at about z $\sim$ 2.6 based on photometric redshift estimates. The lensing galaxy is very faint but we used galaxy templates to estimate z $\sim$ 0.6. We model the lens with both an isothermal ellipsoid (SIE) or a isothermal sphere with shear. While both models provide relatively good fits to the data, there are important discrepancies in the fluxes, especially betwen the B and C components which the models predict should show similar fluxes. These can be explained by differential extinction, microlensing by stars and millilensing due to the dark matter substructure. 
+We report the serendipitous discovery of the first quadruple gravitational lens candidate in the Pan-STARRS images. The lensing galaxy is detected by fitting the lens in i, z and y bands using the Hostlens software. There are small differences in the colors of the four quasars images but they are generally consistent quasar at about z $\sim$ 2.6 based on photometric redshift estimates. The lensing galaxy is very faint but we used galaxy templates to estimate z $\sim$ 0.6. We model the lens with an isothermal ellipsoid (SIE) with shear. While both models provide relatively good fits to the data, there are important discrepancies in the fluxes, especially betwen the B and C components which the models predict should show similar fluxes. These can be explained by differential extinction, microlensing by stars and millilensing due to the dark matter substructure. 
 \end{abstract}
 
 \keywords{black hole physics --- galaxies: individual (Holmberg IX) --- X-rays: binaries}
 
 \section{INTRODUCTION}
 
-In this letter we report the serendipitous discovery of a quad quasar lens candidate in the Pan-STARRS released images. To our knowledge this is the first gravitational lens discovered in the PS1 data. There are very few known quad lenses and therefore they are very valuable. We provide good evidence for a gravitational lens even without redshift measurements (due to its position it is out of sight until the end of the year).
+In this letter we report the serendipitous discovery of a quad quasar lens candidate in the Pan-STARRS released images. To our knowledge if proven with redshift observations, this would be the first gravitational lens discovered in the PS1 data. There are very few known quad lenses and therefore they are very valuable. We provide good evidence for a gravitational lens in the absence of redshift measurements (due to its position it is out of sight until the end of the year).
 
 The prototype Panoramic Survey Telescope and Rapid Response System (Pan-STARRS1, hereafter PS1) is a wide-field imaging system, with a 1.8 m telescope and 7.7 deg$^2$ field of view, located on the summit of Haleakala in the Hawaiian island of Maui. The first PS1 data was release in December 2016 including both images and photometry  \citep[see ][]{cha16}. The 1.4 Gpixel camera consists of 60 CCDs with pixel size of 0.256 arcsec \citep{ona08, ton09}. It uses five filters (g$_{P1}$, r$_{P1}$, i$_{P1}$, z$_{P1}$, y$_{P1}$), similar to the ones used by the Sloan Digital Sky Survey \citep[SDSS ][]{york00}. The largest survey PS1 performs is the 3$\pi$ survey, covering the entire sky north of $-30\deg$ declination. Given the large sky coverage and excellent resolution PS1 is expected to reveal nearly 2000 new gravitationally lensed quasars of which about 300 will be quad lensed quasars \citep{ogu10}.
 
-The lens is very similar to the well studied quad lens RX J1131-1231 \citep{slu03}. At z=0.658 it is one of the nearest known lensed quasars, the three brighter images of the lensed quasar are separated by 1 arcsec, and the fainter image is 3 arcsec away. The quasar images are however fainter by two magnitudes compared to ours \citep{slu06}, but with similar flux discrepancies predicted compared with the models. \citet{slu08} showed that these flux discrepancies can be explained by microlensing. The importance of such quasars is illustrated by the wealth of science this lens has provided over the years.  Due to magnification, \citet{reis14} were able to measure the black hole spin in this quasar based on reflection features in X-ray spectra, which has important implications for studies of galaxy evolution. High resolution Hubbble images allowed \citet{bre08} to use source reconstruction to resolve the quasar host galaxy and reveal its structure. We hope this new lens will provide a similarly important results in the near future and in this letter we present results based solely on the PS1 data.  
+The lens is very similar to the well studied quad lens RX J1131-1231 \citep{slu03}. At z$=$0.658 it is one of the nearest known lensed quasars, the three brighter images of the lensed quasar are separated by 1 arcsec, and the fainter image is 3 arcsec away. The quasar images are however fainter by two magnitudes compared to ours \citep{slu06}, but with similar flux discrepancies predicted compared with the models. \citet{slu08} showed that these flux discrepancies can be explained by microlensing. The importance of such quasars is illustrated by the wealth of science this lens has provided over the years.  Due to magnification, \citet{reis14} were able to measure the black hole spin in this quasar based on reflection features in X-ray spectra, which has important implications for studies of galaxy evolution. High resolution Hubbble images allowed \citet{bre08} to use source reconstruction to resolve the quasar host galaxy and reveal its structure. We hope this new lens will provide a similarly important results in the near future and in this letter we present results based solely on the PS1 data. 
 
+ 
+We assume a cosmological model with $\Omega_M = 0.274$, $\Omega_L = 0.726$, and h = 0.71. 
 In Section 2 we present the results from relative astrometry, photometry and photometric redshift estimates. In Section 3 we model the lens with the gravlens software. Discussion and conclusion are finally presented in Section 4.
 
 
@@ -49,14 +51,14 @@ In Section 2 we present the results from relative astrometry, photometry and pho
 
 
 We used the stacked images from PS1 in all five filters to obtain astrometry and photometry using the Hostlens sowftware.
-The PS1 images (Fig. 1) strongly suggest that the lensed object is a quasar and the photometry results presented in this letter are consistent with this scenario. Therefore we assume that the four PS1 images are quasar images and we fit an analytical PSF model for the quasar for all the five bands. After subtracting the quasar images we detect a faint source in the i, z and y bands, which we believe is the lensing galaxy (Fig.~\ref{hostlensi})
+The PS1 images (Fig. 1) strongly suggest that the lensed object is a quasar and the photometry and modeling results presented in this letter are consistent with this scenario. Therefore we assume that the four PS1 images are quasar images and we fit an analytical PSF model for the quasar for all the five bands. After subtracting the quasar images we detect a faint source in the i, z and y bands, which we believe is the lensing galaxy (Fig.~\ref{hostlensi}).
 
 {\bf Here some details on Hostlens and the fits}
 
 From the Hostlens fits we calculate absolute photometry and relative astrometry for all images. The measure magnitudes are corrected for extinction using the extinction maps of \citet{sch11}.
 
 {\bf This has to be changed to use Le Phare method }
-To calculate photometric redshift we used the method of \citet{wu10}, which is based on Sloan Digital Sky survey (SDSS) colors. PS1 bands are similar but not identical to the SDSS bands and we used the corrections of \citep{fin16} to obtain magnitudes in the SDSS system. Folowing \citet{wu10} we minimize ${\chi}^2$ to obtain redshits for each of the sources. We plot $\chi^2_{\nu}$ in Figure~\ref{redshift} for each quasar image and also fitting all togehter. In the latter case we obtain the best fit at z $\sim$ 0.83, but this is not well constrained, the 1~$\sigma$ confidence level is (0.625,  2.875). We note that there is a second minimum at z $\sim$ 2.6. $\chi^2_{\nu}$ is 0.56 and 1.07 for the two minima, respectively.
+To calculate photometric redshift we used the method of \citet{wu10}, which is based on Sloan Digital Sky survey (SDSS) colors. PS1 bands are similar but not identical to the SDSS bands and we used the corrections of \citep{fin16} to obtain magnitudes in the SDSS system. Folowing \citet{wu10} we minimize ${\chi}^2$ to obtain redshits for each of the sources. We plot $\chi^2_{\nu}$ in Figure~\ref{redshift} for each quasar image and also fitting all togehter. In the latter case we obtain the best fit at z $=$ 0.820$^{+0.006}_{-0.007}$.
 
 The photometric, astrometric and redshift results are summarized in Table~1. 
 
@@ -64,22 +66,19 @@ Due to blending of A, B and C components, both Gaia \citep{gaia} and PS1 catalog
 PS1 psf magnitudes for A are in general smaller than what we obtained probably due to blending, but for D they are very similar to our uncorrected magnitudes: 18.599$\pm$0.013,  18.153$\pm$0.002,  18.079$\pm$0.007,  17.843$\pm$0.0093,  17.534$\pm$0.023. Gaia G magnitudes are 15.17 and 18.13 for A and D, respectively.
 We will use the Gaia position for component D as absolute astrometric reference position for our lens: 26.7923069811, 46.5112731937. The errors for this position are 15.6 and 8.9 mas, respectively.
 
-The lens is also bright in infrared, the unresolved WISE magnitudes for the lens are: 11.524$\pm$0.022, 10.434$\pm$0.020, 6.769$\pm$0.015 ,4.518$\pm$0.023  in the WISE bands $-$ W1, W2, W3 and W4, respectively. The WISE colors match very well those of quasars at low redshift \citep[e.g.][]{mat12}.
+The lens is also bright in infrared, the unresolved WISE magnitudes for the lens are: 11.524$\pm$0.022, 10.434$\pm$0.020, 6.769$\pm$0.015 ,4.518$\pm$0.023  in the WISE bands $-$ W1, W2, W3 and W4, respectively. The WISE colors W1$-$W2$=$1.1 and W2$-$W3$=$3.7 match very well those of quasars at relatively low redshift \citep[e.g.][]{wu12}.
 
-Finally, the lens is very likely a radio source. The NRAO VLA Sky Survey (NVSS) images show a source at the lens position, 2MASX J01471020+4630433 has a flux of 12.6 mJy at 1.4 GHz. The listed position for this source is  only 3 arcsec away from the center of the lens. We are in the process of observing the lens with the Very Large Baseline Array (VLBA).
+Finally, the lens is very likely a radio source. The NRAO VLA Sky Survey (NVSS) images show a source at the lens position, 2MASX J01471020+4630433 has a flux of 12.6 mJy at 1.4 GHz. The listed position for this source is only 3 arcsec away from the center of the lens. We are in the process of observing the lens with the Very Large Baseline Array (VLBA).
 
 
 \section{LENS MODELING}
 
 
-We used the gravlens software to model the gravitational lens \citep{kee01} using the measurements for the g PS1 image
-We tried two  models, Singular Isothermal Ellipsoid (SIE) and a isothermal sphere with shear.
-The predicted positions and magnitudes are presented in Table~1. In Figure~\ref{model} we show 
-lensing critical curves for the two models. The $\chi^2_{\nu}$ for these models are 6.0 and 4.9 for these models, respectively. The contribution to residuals is relatively equal from positions and magnitudes for both models.
+We used the gravlens software to model the gravitational lens \citep{kee01} using the averaged positions from the i and i bands, where the lensing galaxy is better detected. We chose not to use the fluxes in the modeling because it is very well known that they usually show large discrepancies from the models due to microlensing, millilensing or extinction. A good example is RX J1131-1231 which was mentioned in the introduction \citep{slu08}. Moreveover, fitting the fluxes could affect the results of models which do not account for small-scale structure or dust.  We therefore only used the observed fluxes to compare with the model predictions after the modeling was performed.
 
+We use a Singular Isothermal Ellipsoid (SIE) with shear. The parameters for the best fit models are: $b = 1.932_{-0.011}^{+0.008}$, $x_0 = 0.284\pm0.006$, $y_0 = -2.301_{-0.049}^{0.052}$, $e_c = 0.163_{-0.070}^{+0.063}$, $e_s = -0.035_{-0.024}^{+0.023}$, $\gamma_c = 0.122_{-0.016}^{+0.015}$, $\gamma_s = 0.065\pm0.005$. The predicted positions and magnitudes are presented in Table~1. In Figure~\ref{model} we show the critical curve and the caustics. The $\chi^2_{\nu}$ is 0.8, with most dicrepancy coming from the position of the galaxy. We explored the range of models using Markvov Chain Monte Carlo (MCMC) methods. The predicted magnitude differences are shown in Table1~1 and a comparison with the observed values are shown in Figure~\ref{modelphot}. As expected we indeed find large discrepancies. 
 
-While the models differ in detail, they are consistent in predicting image brightnesses that differ from what is observed.  In particular, the models suggest that the two outer images should be similar in brightness.  This is interesting because there are some physical effects that can cause observed image brightnesses to differ from the predictions of simple lens models. Firstly light can be affected as it propagates through the main lens galaxy, for example by differential extinction.  This possibility is interesting in light of the color differences between images.  Propagation effects tend to be more important at optical wavelengths than at radio wavelengths; this is particularly true of extinction, although there can be scatter broadening at radio wavelengths. Secondly, the light can be affected by stars in the lens galaxy through microlensing.  This mainly affects optical wavelengths.
-Finally, the light can be affected by dark matter substructure in the lens galaxy through millilensing.  This could affect all wavelengths.
+ The model suggest that the two outer images should be similar in brightness.  This is interesting because there are some physical effects that can cause observed image brightnesses to differ from the predictions of simple lens models. Firstly light can be affected as it propagates through the main lens galaxy, for example by differential extinction.  This possibility is interesting in light of the color differences between images.  Propagation effects tend to be more important at optical wavelengths than at radio wavelengths; this is particularly true of extinction, although there can be scatter broadening at radio wavelengths. Secondly, the light can be affected by stars in the lens galaxy through microlensing.  This mainly affects optical wavelengths. Finally, the light can be affected by dark matter substructure in the lens galaxy through millilensing.  This could affect all wavelengths.
 
 Measuring the flux ratios in radio with VLBA would provide valuable information that will help us test the lensing hypothesis and understand the various physical effects at play and better constrain the models 
 
@@ -111,7 +110,7 @@ the institutions participating in the {\it Gaia} Multilateral Agreement.
 \bibitem[Gaia Collaboration et al.(2016)]{gaia} Gaia Collaboration, Brown, A.~G.~A., Vallenari, A., et al.\ 2016, \aap, 595, A2 
 \bibitem[Keeton(2001)]{kee01} Keeton, C.~R.\ 2001, arXiv:astro-ph/0102340 
 
-\bibitem[Mateos et al.(2012)]{mat12} Mateos, S., Alonso-Herrero, A., Carrera, F.~J., et al.\ 2012, \mnras, 426, 3271 
+%% \bibitem[Mateos et al.(2012)]{mat12} Mateos, S., Alonso-Herrero, A., Carrera, F.~J., et al.\ 2012, \mnras, 426, 3271 
 \bibitem[Oguri \& Marshall(2010)]{ogu10} Oguri, M., \& Marshall, P.~J.\ 2010, \mnras, 405, 2579 
 
 \bibitem[Onaka \& al.(2008)]{ona08} Onaka P., Tonry J.~L., Isani S., Lee A., Uyeshiro R., Rae C., Robertson L., Ching G., Proc.\ 2008, \procspie, 7014, 12
@@ -129,6 +128,8 @@ Proceedings of the Advanced Maui Optical and Space Surveillance Technologies Con
 The Maui Economic Development Board, Kihei, HI, p. E40
 
 \bibitem[Wu \& Jia(2010)]{wu10} Wu, X.-B., \& Jia, Z.\ 2010, \mnras, 406, 1583 
+
+\bibitem[Wu et al.(2012)]{wu12} Wu, X.-B., Hao, G., Jia, Z., Zhang, Y., \& Peng, N.\ 2012, \aj, 144, 49 
 \bibitem[York et al.(2000)]{york00} York, D.~G., Adelman, J., Anderson, J.~E., Jr., et al.\ 2000, \aj, 120, 1579 
 
 
@@ -166,23 +167,13 @@ y & 14.92$\pm$0.01 &  15.23$\pm$0.02 & 15.76$\pm$0.02 & 17.36$\pm$0.02 & 19.20$\
 $\Delta$i & 0.0 & 0.21 & 0.79 & 2.38 & 4.14 \\
 $\Delta$x & 0.000$\pm$0.004 & -1.185$\pm$0.004 & 1.271$\pm$0.005 & 0.410$\pm$0.004 & 0.240$\pm$0.050 \\
 $\Delta$y & 0.000$\pm$0.004 & -0.441$\pm$0.004 & -0.074$\pm$0.004 & -3.310$\pm$ 0.004 & -2.310$\pm$0.025 \\
-z & 0.725 & 0.825 & 0.725 & 0.925 \\
+z & 0.818$^{+0.007}_{-0.009}$ & 0.732$^{+0.007}_{-0.006}$ & 0.912$^{+0.008}_{-0.009}$ & 0.914$^{+0.007}_{-0.009}$  \\
 
 \tableline
-\multicolumn{3}{l}{\tiny {Model prediction. Isothermal ellipsoid}}\\
+\multicolumn{3}{l}{\tiny {Model prediction}}\\
 \tableline
 
-$\Delta$g & 0.0 &  0.441 &  0.495 & 2.565 \\
-$\Delta$x & -0.3903  & -1.5294  &  0.9049  &  0.0 \\
-$\Delta$y &  3.3137  &  2.8096  &  3.0659  &  0.0 \\
-
-\tableline
-\multicolumn{3}{l}{\tiny {Model prediction. Isothermal sphere with external shear}}\\
-\tableline
-
-$\Delta$g & 0.0 &  0.563 &  0.617 & 2.643 \\
-$\Delta$x & -0.3863  & -1.5378  &  0.9115  &  0.0 \\
-$\Delta$y &  3.2913  &  2.8116  &  3.0707  &  0.0 \\
+$\Delta$m & 0.0 &  0.580$^{+0.17}_{-0.020}$ & 0.626$^{+0.005}_{-0.009}$ & 3.55$\pm$0.06 \\
 
 
 \enddata
@@ -220,14 +211,6 @@ Left: individually for each image; right: for all images simultanesously}
 
 
 \begin{figure}
-\epsscale{0.6}
-\plotone{model.eps}
-\caption{
-Gravitational lens model. Two models were used, isothermal ellipsoid (red) and a isothermal sphere with shear (green). The small circles in the center of the image show the predicted position for the lens galaxy for each model.}
-\label{model}
-\end{figure}
-
-\begin{figure}
 \epsscale{1.1}
 \plotone{hostlens.eps}
 \caption{
@@ -237,38 +220,22 @@ Hostlens i band fits. From left to right: the original PS1 image, after the quas
 
 
 \begin{figure}
-\epsscale{0.9}
-\plotone{galfitgSIE.eps}
+\epsscale{0.6}
+\plotone{critcrv1.eps}
 \caption{
-Galfit g band for the SIE model}
-\label{galfitgSIE}
+Gravitational lens model. The red and blue lines show the critical curve and caustics. The green dot shows the quasar position and the black dots the lensed image position}
+\label{model}
 \end{figure}
-
-\begin{figure}
-\epsscale{0.9}
-\plotone{galfitgSIE1.eps}
-\caption{
-Galfit g band for the SIE model with fluxes fixed to the model prediction}
-\label{galfitg}
-\end{figure}
-
 
 
 \begin{figure}
-\epsscale{0.9}
-\plotone{galfitgshear.eps}
+\epsscale{1.0}
+\plotone{modelphotometry.eps}
 \caption{
-Galfit g band for the shear model}
-\label{galfitgshear}
+Comparison between the observed quasar image magnitudes differences (vertical colored lines) and the model predicitons (blue) for each PS1 band. The model predicitons were drrawn from a MCMC to explore the range of models. The discrepancied between the model and observed are clearly visible}
+\label{modelphot}
 \end{figure}
 
-\begin{figure}
-\epsscale{0.9}
-\plotone{galfitgshear1.eps}
-\caption{
-Galfit g band for the shear model with fluxes fixed to the model prediction}
-\label{galfitg}
-\end{figure}
 
 
 \end{document}
