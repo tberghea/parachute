@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 MAY 2017 16:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 MAY 2017 05:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -174,11 +174,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(./paper4.aux
-
-Package natbib Warning: Citation `ogu10' multiply defined.
-
-)
+(./paper4.aux)
 \openout1 = `paper4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -193,7 +189,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
- (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen124
@@ -274,25 +271,29 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 
-Package natbib Warning: Citation `masterlens' on page 3 undefined on input line
- 38.
+Package natbib Warning: Citation `pen06' on page 3 undefined on input line 38.
+
+
+Package natbib Warning: Citation `chi05' on page 3 undefined on input line 38.
+
+
+Package natbib Warning: Citation `kho00' on page 3 undefined on input line 38.
 
 [3
 
-]
+] [4]
 Missing character: There is no Ð in font cmr12!
- [4] [5] [6] [7]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 89.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+ [5] [6]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 70.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
- [8] [9] [10]
-[11
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
 
-] [12]
+[7] [8] [9] [10] [11] [12] [13
+
+] [14] [15]
 Table 1 has been set to width 280.96669pt
 Plottwo included the files lens3.eps lens4.eps
 Package epstopdf Info: Source file: <lens3.eps>
@@ -303,13 +304,13 @@ Package epstopdf Info: Source file: <lens3.eps>
 (epstopdf)                    size: 24120 bytes
 (epstopdf)             Command: <repstopdf --outfile=lens3-eps-converted-to.pdf
  lens3.eps>
-(epstopdf)             \includegraphics on input line 209.
+(epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
-<lens3-eps-converted-to.pdf, id=52, 543.02875pt x 543.02875pt>
+<lens3-eps-converted-to.pdf, id=64, 543.02875pt x 543.02875pt>
 File: lens3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use lens3-eps-converted-to.pdf>
-Package pdftex.def Info: lens3-eps-converted-to.pdf used on input line 209.
+Package pdftex.def Info: lens3-eps-converted-to.pdf used on input line 238.
 (pdftex.def)             Requested size: 232.52841pt x 232.52835pt.
 Package epstopdf Info: Source file: <lens4.eps>
 (epstopdf)                    date: 2017-05-08 18:45:41
@@ -319,14 +320,14 @@ Package epstopdf Info: Source file: <lens4.eps>
 (epstopdf)                    size: 78050 bytes
 (epstopdf)             Command: <repstopdf --outfile=lens4-eps-converted-to.pdf
  lens4.eps>
-(epstopdf)             \includegraphics on input line 209.
+(epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
 
-<lens4-eps-converted-to.pdf, id=53, 543.02875pt x 541.02126pt>
+<lens4-eps-converted-to.pdf, id=65, 543.02875pt x 541.02126pt>
 File: lens4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use lens4-eps-converted-to.pdf>
-Package pdftex.def Info: lens4-eps-converted-to.pdf used on input line 209.
+Package pdftex.def Info: lens4-eps-converted-to.pdf used on input line 238.
 (pdftex.def)             Requested size: 232.52841pt x 231.66873pt.
 
 Plottwo included the files redshiftseparate.eps redshifttogether.eps
@@ -338,14 +339,14 @@ Package epstopdf Info: Source file: <redshiftseparate.eps>
 (epstopdf)                    size: 64907 bytes
 (epstopdf)             Command: <repstopdf --outfile=redshiftseparate-eps-conve
 rted-to.pdf redshiftseparate.eps>
-(epstopdf)             \includegraphics on input line 219.
+(epstopdf)             \includegraphics on input line 248.
 Package epstopdf Info: Output file is already uptodate.
-<redshiftseparate-eps-converted-to.pdf, id=54, 543.02875pt x 397.485pt>
+<redshiftseparate-eps-converted-to.pdf, id=66, 543.02875pt x 397.485pt>
 File: redshiftseparate-eps-converted-to.pdf Graphic file (type pdf)
 
 <use redshiftseparate-eps-converted-to.pdf>
 Package pdftex.def Info: redshiftseparate-eps-converted-to.pdf used on input li
-ne 219.
+ne 248.
 (pdftex.def)             Requested size: 232.52841pt x 170.2056pt.
 Package epstopdf Info: Source file: <redshifttogether.eps>
 (epstopdf)                    date: 2017-05-12 13:21:50
@@ -355,15 +356,15 @@ Package epstopdf Info: Source file: <redshifttogether.eps>
 (epstopdf)                    size: 42730 bytes
 (epstopdf)             Command: <repstopdf --outfile=redshifttogether-eps-conve
 rted-to.pdf redshifttogether.eps>
-(epstopdf)             \includegraphics on input line 219.
+(epstopdf)             \includegraphics on input line 248.
 Package epstopdf Info: Output file is already uptodate.
 
-<redshifttogether-eps-converted-to.pdf, id=55, 503.8825pt x 380.42125pt>
+<redshifttogether-eps-converted-to.pdf, id=67, 503.8825pt x 380.42125pt>
 File: redshifttogether-eps-converted-to.pdf Graphic file (type pdf)
 
 <use redshifttogether-eps-converted-to.pdf>
 Package pdftex.def Info: redshifttogether-eps-converted-to.pdf used on input li
-ne 219.
+ne 248.
 (pdftex.def)             Requested size: 232.52841pt x 175.55315pt.
 
 Plotone included the file hostlens.eps
@@ -375,13 +376,13 @@ Package epstopdf Info: Source file: <hostlens.eps>
 (epstopdf)                    size: 118995 bytes
 (epstopdf)             Command: <repstopdf --outfile=hostlens-eps-converted-to.
 pdf hostlens.eps>
-(epstopdf)             \includegraphics on input line 229.
+(epstopdf)             \includegraphics on input line 258.
 Package epstopdf Info: Output file is already uptodate.
-<hostlens-eps-converted-to.pdf, id=56, 376.40625pt x 231.86626pt>
+<hostlens-eps-converted-to.pdf, id=68, 376.40625pt x 231.86626pt>
 File: hostlens-eps-converted-to.pdf Graphic file (type pdf)
 
 <use hostlens-eps-converted-to.pdf>
-Package pdftex.def Info: hostlens-eps-converted-to.pdf used on input line 229.
+Package pdftex.def Info: hostlens-eps-converted-to.pdf used on input line 258.
 (pdftex.def)             Requested size: 469.75499pt x 289.38985pt.
 
 Plotone included the file critcrv1.eps
@@ -393,88 +394,82 @@ Package epstopdf Info: Source file: <critcrv1.eps>
 (epstopdf)                    size: 29487 bytes
 (epstopdf)             Command: <repstopdf --outfile=critcrv1-eps-converted-to.
 pdf critcrv1.eps>
-(epstopdf)             \includegraphics on input line 238.
+(epstopdf)             \includegraphics on input line 267.
 Package epstopdf Info: Output file is already uptodate.
-<critcrv1-eps-converted-to.pdf, id=57, 334.24875pt x 330.23375pt>
+<critcrv1-eps-converted-to.pdf, id=69, 334.24875pt x 330.23375pt>
 File: critcrv1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use critcrv1-eps-converted-to.pdf>
-Package pdftex.def Info: critcrv1-eps-converted-to.pdf used on input line 238.
+Package pdftex.def Info: critcrv1-eps-converted-to.pdf used on input line 267.
 (pdftex.def)             Requested size: 281.85585pt x 278.49294pt.
 
 Plotone included the file model-photometry.pdf
-<model-photometry.pdf, id=58, 570.93298pt x 570.93298pt>
+<model-photometry.pdf, id=70, 570.93298pt x 570.93298pt>
 File: model-photometry.pdf Graphic file (type pdf)
 
 <use model-photometry.pdf>
-Package pdftex.def Info: model-photometry.pdf used on input line 247.
+Package pdftex.def Info: model-photometry.pdf used on input line 276.
 (pdftex.def)             Requested size: 469.75499pt x 469.77103pt.
 
 Plotone included the file ilens_out_file_mcmc.png
-<ilens_out_file_mcmc.png, id=59, 3888.126pt x 3888.126pt>
+<ilens_out_file_mcmc.png, id=71, 3888.126pt x 3888.126pt>
 File: ilens_out_file_mcmc.png Graphic file (type png)
 
 <use ilens_out_file_mcmc.png>
-Package pdftex.def Info: ilens_out_file_mcmc.png used on input line 255.
+Package pdftex.def Info: ilens_out_file_mcmc.png used on input line 284.
 (pdftex.def)             Requested size: 516.73335pt x 516.68712pt.
 
-Overfull \hbox (46.97836pt too wide) in paragraph at lines 255--257
+Overfull \hbox (46.97836pt too wide) in paragraph at lines 284--286
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 15.08658pt on input line 259.
+LaTeX Warning: Float too large for page by 85.35353pt on input line 288.
 
 
 Package natbib Warning: There were undefined citations.
 
-
-Package natbib Warning: There were multiply defined citations.
-
-[13
+[16
 
 
-] [14] [15 <./lens3-eps-converted-to.pdf> <./lens4-eps-converted-to.pdf> <./red
+] [17] [18 <./lens3-eps-converted-to.pdf> <./lens4-eps-converted-to.pdf> <./red
 shiftseparate-eps-converted-to.pdf> <./redshifttogether-eps-converted-to.pdf>] 
-[16 <./hostlens-eps-converted-to.pdf>] [17 <./critcrv1-eps-converted-to.pdf>] [
-18 <./model-photometry.pdf>] [19 <./ilens_out_file_mcmc.png>] (./paper4.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-) ) 
+[19 <./hostlens-eps-converted-to.pdf>] [20 <./critcrv1-eps-converted-to.pdf>] [
+21 <./model-photometry.pdf>] [22 <./ilens_out_file_mcmc.png>] (./paper4.aux) ) 
 Here is how much of TeX's memory you used:
- 3437 strings out of 493089
- 44360 string characters out of 6134842
- 111988 words of memory out of 5000000
- 6862 multiletter control sequences out of 15000+600000
+ 3499 strings out of 493089
+ 45158 string characters out of 6134842
+ 113633 words of memory out of 5000000
+ 6924 multiletter control sequences out of 15000+600000
  11428 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,28p,2613b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
-b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on paper4.pdf (19 pages, 8771116 bytes).
+ 38i,9n,28p,2291b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
+<
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
+Output written on paper4.pdf (22 pages, 8788332 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
+ 214 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
