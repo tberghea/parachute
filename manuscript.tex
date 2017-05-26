@@ -1,0 +1,314 @@
+
+
+\documentclass[manuscript]{aastex}
+\usepackage{amsmath}
+
+
+\newcommand{\vdag}{(v)^\dagger}
+
+%% You can insert a short comment on the title page using the command below.
+
+\slugcomment{}
+
+\shorttitle{A quadruply lensed quasar in PS1}
+\shortauthors{C. Berghea et al.}
+
+\begin{document}
+
+\title{ Discovery of the first quadruple gravitationally lensed quasar candidate with Pan-STARRS }
+
+\author{C. T. Berghea\altaffilmark{1}, George J. Nelson\altaffilmark{1}, C. E. Rusu\altaffilmark{2}, C. R. Keeton\altaffilmark{3}, R. P. Dudik\altaffilmark{1}}
+
+\altaffiltext{1}{U.S. Naval Observatory (USNO), 3450 Massachusetts Avenue NW, Washington, DC 20392, USA}
+\altaffiltext{2}{Department of Physics, University of California, Davis, 1 Shields Avenue, CA 95616, USA}
+\altaffiltext{3}{Department of Physics \& Astronomy, Rutgers, the State University of New Jersey, 136 Frelinghuysen Road, Piscataway, NJ 08854, USA}
+
+\email{ciprian.t.berghea@navy.mil}
+
+\begin{abstract}
+
+We report the serendipitous discovery of the first gravitationally lensed quasar candidate from Pan-STARRS. The $grizy$ images reveal four point-like images with magnitudes between $14.9$ mag and $18.1$ mag. The colors of the point sources are similar, and they are more consistent with quasars than stars or galaxies. The lensing galaxy is detected in the $izy$ bands, with an inferred photometric redshift of $\sim 0.6$, lower than that of the point sources. We successfully model the system with a singular isothermal ellipsoid with shear, using the relative positions of the five objects as constraints. While the brightness ranking of the point sources is consistent with that of the model, we find discrepancies between the model-predicted and observed fluxes, likely due to microlensing by stars and millilensing due to dark matter substructure. In order to fully confirm the gravitational lens nature of this system, and add it to the small but growing number of the powerful probes of cosmology and astrophysics represented by quadruply lensed quasars, we further require spectroscopy and high-resolution imaging.
+
+\end{abstract}
+
+\keywords{quasars: general  --- gravitational lensing: strong  --- cosmology: observations }
+
+\section{INTRODUCTION}
+
+Since the serendipitous discovery of the first gravitationally lensed quasar \citep{wal79}, these systems have become powerful probes of astrophysics and cosmology, as illustrated by the wealth of science they have provided over the years. For example, \citet{peng06,din17} have studied the coevolution of supermassive black holes and the quasar hosts harboring them up to high redshift \citep{cla02,tre10}. \citet{ogu12,bon17} and others have constrained the cosmological constant and the Hubble constant from samples of lensed quasars \citep[see recent review by][]{Tre16}. Flux ratio anomalies have revealed luminous satellites or set constraints on dark matter substructure in the lensing galaxies \citep[e.g.,][]{chiba05,mck07,fad12}. Ensembles of lenses have revealed the structure of massive galaxies \citep[e.g.,][]{koc00,ogu14}. Other insights have been gained into quasar accretion disks \citep[e.g.,][]{dai10}, broad-line regions \citep[e.g.,][]{slu12}, and black hole spin \citep{reis14}.
+
+These applications all require increasingly large samples of lensed quasars, and in particular quadruply lensed quasars (quads), due to the increased number of modeling constraints they provide. To date, there are only about three dozen known quads over the whole sky\footnote{http://masterlens.astro.utah.edu/}. Due to the rare nature of lensed quasars, large scale surveys of sufficient depth and resolution are required to significantly increase the present sample \citep{ogu10}. As such surveys have become available, pioneering searches for lensed quasars, such as the Cosmic Lens All Sky Survey \citep[CLASS;][]{mye03} have been succeeded by the SDSS Quasar Lens Search \citep[SQLS;][]{ogu06}, and more recently by the STRong lensing Insight in the Dark Energy Survey \citep[STRIDES;][]{agn15} and the Survey of Gravitationally-lensed Objects in HSC Imaging \citep[SuGOHI;][]{son17}, amongst others.
+
+In this letter we report the serendipitous discovery of a quad lensed quasar candidate from the Panoramic Survey Telescope and Rapid Response System (Pan-STARRS1, hereafter PS1) released images. To our knowledge, if proven with spectroscopic observations, this would be the first gravitational lens discovered in the PS1 data. We model the system to provide evidence in support of its lensing nature, and we conclude with the necessity of obtaining spectroscopic confirmation. Due to its position, this is not possible until the end of the year.
+
+The lensed quasar was discovered as part of a variability study of Active Galactic Nuclei selected based on Mid-Infrared characteristics \citep{sec01}, and data from the USNO Robotic Astrometric Telescope \citep{zac15}. 
+
+PS1 is a wide-field imaging system, with a 1.8 m telescope and 7.7 deg$^2$ field of view, located on the summit of Haleakala in the Hawaiian island of Maui. The first PS1 data was release in December 2016 including both images and photometry \citep[see][]{cha16}. The 1.4 Gpixel camera consists of 60 CCDs with pixel size of 0.256 arcsec \citep{ona08, ton09}. It uses five filters (g$_{P1}$, r$_{P1}$, i$_{P1}$, z$_{P1}$, y$_{P1}$, hereafter $grizy$), similar to the ones used by the Sloan Digital Sky Survey \citep[SDSS;][]{york00}. The largest survey PS1 performs is the 3$\pi$ survey, covering the entire sky north of $-30\deg$ declination. Given the large sky coverage, resolution and depth, PS1 is expected to contain nearly 2000 gravitationally lensed quasars, of which about 300 will be quad lensed quasars \citep{ogu10}.
+ 
+The structure of the paper is as follows:
+In Section 2 we infer relative astrometry, photometry and photometric redshifts. In Section 3 we fit a mass model to the system. Discussions, conclusions and future works are presented in Section 4. We assume a cosmological model with $\Omega_M = 0.274$, $\Omega_L = 0.726$, and $h$ = 0.71. All magnitudes are in the AB system. 
+
+\section{ASTROMETRY AND PHOTOMETRY}
+
+
+We used the stacked images from PS1 in all five filters in order to perform a morphological modeling. We present a close-up color image of the system in Fig.~\ref{lens}, which clearly shows four objects within $\lesssim 3.8\arcsec$ of each other. The three brightest of these (A, B and C) are arranged in an arc-like configuration. The PS1 catalog identifies only the sources A and D, with B and C being blended with A. 
+
+The simple modeling with a point spread function (PSF) constructed from stars in the PS1 field of view (FOV) left large residuals at the locations of the four objects, that were significant enough to affect the derived parameters. We suspect that this is due to spatial variation in the PSF across the PS1 FOV, and have therefore adopted a technique of fitting the system with an analytical PSF, which it is assumed will not change on the small scale represented by the system. We did this using Hostlens \citep{rus16}, a variant of glafic \citep{ogu10b} which uses $\chi^2$ minimization in order to fit point sources as well as S{\'e}rsic \citep{ser63} profiles convolved with an analytical PSF. The analytical PSF is comprised of two concentric Moffat \citep{mof69} profiles, each one with its own full-width half maximum, ellipticity, orientation, and shape parameter. The two profiles are also characterized by a relative flux of one to the other. We successfully modeled the four objects as point sources convolved with the PSF, therefore showing that they are point-like. Our strategy was to run Hostlens starting from 100 different positions in the parameter space, select the best of the resulting models, and further run 10 Markov Chain Monte Carlo (MCMC) chains using the MetropolisÐHastings algorithm around it. The chains consist of one million steps, with an acceptance rate of $\sim0.3$, and we removed the first 1/5 of these (the ``burn-in'' steps). We also checked that the chains have converged, using the method of \citet{gel95}. The MCMC-derived uncertainties between the various analytical parameters are shown in Fig.~\ref{mcmc_hostlens}, and generated using corner.py \citep{for16}. In order to quantify additional uncertainties inherent in our method due to the non-analytical nature of the ``true'' PSF, we ran 100 simulations where we add noise of similar properties to the real images, on top of the best-fit model. Here, we created the best-fit model by using a PSF constructed from nearby stars, and we ran Hostlens on each of the 100 simulations, using an analytical PSF. As a final estimate of our uncertainties, we used the maximum between the MCMC-derived uncertainties and those from the simulations. We were able to obtain much improved residuals in all bands, and we show these in Fig.~\ref{hostlens}. 
+ 
+Fig.~\ref{hostlens} shows conspicuous residuals in the $i$, $z$ and $y$ bands (middle row). These are consistent with the discovery of a lensing galaxy, in support of the lensing nature of this system. Due to the relatively low signal to noise ratio and the proximity of the point sources, we were unable to fit the morphology of this galaxy with free parameters. The red colors, suggested by the non-detection in the bluer bands, suggest that it is a red, early-type galaxy. As a result, we modeled it with a S{\'e}rsic index of 4, typical of early-type galaxies. We checked that this produces a better fit than a S{\'e}rsic index of 1. For the S{\'e}rsic profile we used an axis ratio of 1 and we fixed the effective radius at $0.5\arcsec$. As the galaxy is most conspicuous in the $i$ and $y$ bands, we consider the most reliable estimate of the relative positions of all objects to be derived from the weighted average of the positions measured in these two bands, where we weight by the inverse of the measured uncertainties. The resulting astrometry, as well as photometry in each band, are shown in Table~1. We have corrected the magnitudes for galactic extinction using the maps of \citet{sch11}.
+
+In addition to the PS1 data, we have also looked for archival data of this system. The system is detected in both the Gaia \citep{gaia} DR1 and PS1 catalogs; however, only A and D are deblended by the automatic pipeline. PS1 psf magnitudes for A are in general smaller than what we obtained probably due to blending, but for D they are very similar to our uncorrected magnitudes: 18.599$\pm$0.013,  18.153$\pm$0.002,  18.079$\pm$0.007,  17.843$\pm$0.0093,  17.534$\pm$0.023 in the $grizy$ bands, respectively. We use the Gaia position for component D as absolute astrometric reference position for this system: 26.792307, 46.511273. The errors for these coordinates given in the Gaia catalog are 15.6 and 8.9 mas, respectively.
+
+%%PS1 psf magnitudes for A are in general smaller than what we obtained probably due to blending, but for D they are very similar to our uncorrected magnitudes: 18.599$\pm$0.013,  18.153$\pm$0.002,  18.079$\pm$0.007,  17.843$\pm$0.0093,  17.534$\pm$0.023. Gaia G magnitudes are 15.17 and 18.13 for A and D, respectively.
+
+The system is also bright in the infrared, with the unresolved magnitudes being: 11.524$\pm$0.022, 10.434$\pm$0.020, 6.769$\pm$0.015, and 4.518$\pm$0.023 in the WISE bands $-$ W1, W2, W3 and W4, respectively. The WISE colors W1$-$W2$=$1.1 and W2$-$W3$=$3.7 match very well those of quasars for redshift below 3.5 \citep[e.g.][]{wu12}. 
+
+Finally, the system is very likely also a radio source. The NRAO VLA Sky Survey (NVSS) images show a source, 2MASX J01471020+4630433, with flux 12.6 mJy at 1.4 GHz. The listed position for this source is only $3\arcsec$ away from the center of the lens, which is comparable with NVSS astrometric errors \citep{con98}. We are currently in the process of further observing the system in the radio with the Very Large Baseline Array (VLBA). Radio data is useful for the study of lensed quasars, as it provides high-resolution imaging of the source, as well as fluxes not affected by microlensing and extinction.
+
+\section{PHOTOMETRIC REDSHIFTS}
+
+We fit the photometry measured in Section 2 for the point-like sources and the faint red galaxy using spectral energy distribution (SED) templates. The colors of the point-like images are very similar (Table~1), consistent with being multiple images of the same source. Due to their point-like morphology, we suspect these to be quasars, and have therefore fit them with quasar templates in order to check the quality of the fit and to infer photometric redshifts. Photometric redshifts of quasars are notoriously difficult to constrain, due to the relatively featureless continua \citep{ric09} and the variable equivalent widths of the broad emission lines. Redshift was measured using two separate methods:
+\begin{itemize}
+\item The method of \citet{wu10} presents quasar colors as a function of redshifts. This is based on Sloan Digital Sky survey (SDSS) colors. PS1 bands are similar but not identical to the SDSS bands and we used the corrections of \citet{fin16} to obtain magnitudes in the SDSS system. Following \citet{wu10}, we minimized ${\chi}^2$ to obtain redshifts for each of the point sources. We plot $\chi^2_{\nu}$ in Figure~\ref{redshift} for each quasar image, and also by fitting all sources together. We notice that the curves are quite consistent with each other, as expected from the similar colors of the sources. In the latter case we obtain the best fit at $z = 0.820^{+0.006}_{-0.007}$. We notice a second minimum at $z \sim2.6$. For both minima the $\chi^2_{\nu}$ is $\lesssim1$, indicative of a good fit. 
+\item LePhare \citep{arn99,ilb06} method uses quasar templates. We obtain the best fit at a redshift of $\sim 2.6-2.8$ for all four point sources.  These results agree with the second peak of the method above. The $\chi^2$ is between 13 and 125 for 4 degrees of freedom (5 filters). We find poorer fits (larger $\chi^2$) when using stellar or galactic SED templates, providing further support that the sources are quasars. In particular, the best-fit galaxy templates correspond to starburst galaxies at low redshift $\lesssim0.1$. At such low redshifts the sources would likely be resolved, not point-like. 
+\end{itemize}
+
+The lens galaxy G is very faint but we managed to fit a galaxy SED with an early-type template, resulting in a best-fit $z = 0.57^{+0.20}_{-0.13}$. For this, we used the magnitudes measured in the $izy$ bands and assumed detection limits of 21 mag in the $gr$ bands, $\sim$ 2 mag fainter than the rest. 
+
+\section{LENS MODELING}
+
+The results of the previous sections show that the source is likely a quadruply imaged quasar, lensed by a foreground early-type galaxy. We subsequently modeled the observed configuration (the relative positions of the objects A,B,C,D and G) using the lensmodel software from the gravlens package \citep{kee01}. We chose not to use the observed relative fluxes as constraints, as it is well known that at these wavelengths they usually show large discrepancies due to microlensing, millilensing, intrinsic variability or extinction \citep[e.g.,][]{slu08}. For the mass profile of the lensing galaxy we use a Singular Isothermal Ellipsoid (SIE) with external shear. There are 8 constraints from the 4 image positions and 2 constraints from the galaxy position, for a total of 10. Also, there are 9 free parameters: 2 for the galaxy position, 1 for the Einstein radius, 2 for ellipticity, 2 for shear, and 2 for the source position. The model therefore has 1 degree of freedom.
+
+For the best-fit mass model parameters, we find an Einstein radius $b = 1.932_{-0.011}^{+0.008}$, ellipticity $e_c = 0.163_{-0.070}^{+0.063}$, $e_s = -0.035_{-0.024}^{+0.023}$, and shear $\gamma_c = 0.122_{-0.016}^{+0.015}$, $\gamma_s = 0.065\pm0.005$. Here, we expressed the ellipticity and shear in quasi-cartesian coordinates, rather than polar coordinates, as the distribution of uncertainties is more gaussian. The two coordinate systems are related by $(e_c,\gamma_c) = (e,\gamma)\cos2(\theta_e,\theta_\gamma)$ and $(e_s,\gamma_s) = (e,\gamma)\sin2(\theta_e,\theta_\gamma)$. The convergence was again checked using the method of \citet{gel95}. The uncertainties were determined using MCMC as plotted in Fig.~\ref{mcmc_gravlens} with corner.py. The $\chi^2$ for this model is 0.8. 
+
+While the parameters derived above are independent of redshift, estimating the expected time delays between the images does require redshift information. Using the results of the previous Section, we have fixed the redshift of the source at 0.57. If we assume a source redshift of 0.82, we derive from the expression of the Einstein radius in a singular isothermal profile, $b=4\pi\left(\frac{\sigma}{c}\right)^2\frac{D_{ls}}{D_{s}}$, a velocity dispersion of $\sigma\sim500$ km/s. Here $c$ is the speed of light, and $D_{s},D_{ls}$ are the angular diameter distances to the source and between lens and source, respectively. This value is too large for a single galaxy, but if we employ the second source redshift estimate from Section 2, $\sim2.6$, we obtain $\sigma\sim315$ km/s, a more common value for massive early-type galaxies. We therefore assume this redshift to infer the predicted time delays, and we obtain $\Delta t_{BC} = 0.1$ days, $\Delta t_{AC} = 1.7$ days and $\Delta t_{DC} = 226.2$ days, with image C leading.   
+
+In Figure~\ref{model} we show the critical curve and the caustics, as well as the positions of the source and the observed images. The source is crossing a cusp, which results in the production of three bright images in close proximity, and one isolated faint image. This is a classic configuration for quad lenses. The predicted magnitude differences are shown in Table~1, and a comparison with the observed values are shown in Figure~\ref{modelphot}. 
+
+We find that the predicted brightness ranking of the images is consistent with the observations, with image A being brightest, and image D being faintest. However, there are still large discrepancies between the observed and predicted fluxes. For example, the fluxes of images B and C are different, whereas they are expected to be the same for any smooth mass profile of the lensing galaxy. Such ``flux anomalies'' have been widely encountered for cusp lensed quasars, and can be explained by small-scale structure in the lensing galaxy \citep[e.g.,][]{kee03}. We also remark that the colors of the four images are very similar, within $\lesssim 0.2$ mag across all filters. Small chromatic variations between multiple quasar images are known to be caused by intrinsic variability, microlensing or differential extinction \citep{yon08}. In any case, differential extinction would not explain the flux discrepancy in image D, as this is $\sim1$ mag \emph{brighter} than expected. Since image D is closest to the lensing galaxy, the stellar density is comparatively high at its location, meaning that microlensing due to stars in the lensing galaxy is a plausible explanation for the discrepancy. Secondly, we remark that the time delays between image D and the other images is large, which means that while intrinsic flux variations between A, B and C will be washed out, they could stand out in image D, and therefore be responsible for the discrepancy. Lastly, small-scale substructure (millilensing) could cause contribute to the discrepancy.
+
+
+\section{CONCLUSIONS AND FUTURE WORK}
+
+We have presented the first quadruply imaged gravitationally lensed quasar candidate in the Pan-STARRS1 Survey, discovered via visual inspection of the multi-band images. We find that the evidence supporting the gravitational lens nature of this system is overwhelming, and consists of the following:
+
+\begin{itemize}
+\item The presence of four point-like images within $\lesssim 3.8\arcsec$ of each other, with similar colors, consistent with quasars templates, but less so with stars and galaxies.
+\item The detection of a red galaxy between the point source, such that the relative positions of all five objects are fully consistent with a well-known ``cusp'' configuration. We successfully reproduce this configuration using a SIE + shear model for the lensing galaxy. Furthermore, the brightness ranking of the point-like images is consistent with the one predicted by the model.
+ \item The photometric redshift analysis shows that the galaxy is of elliptical template, typical for lensing galaxies, and of redshift smaller than the point sources. For the inferred redshifts (assuming a source redshift of $\sim2.6$), the velocity dispersion of the lensing galaxy is consistent with those of massive early-type galaxies.
+\end{itemize}
+
+Nevertheless, we stop short of claiming that this is a confirmed lens until we can obtain spectroscopy of this system. Spectroscopy of the four point-like images would unequivocally demonstrate whether they are multiple images of the same background quasar, as well as allow to infer its redshift and physical properties. We also note that the system is accessible to ground based high-resolution observations at most adaptive optics-capable facilities in the Northern hemisphere, due to the proximity to a $R\sim12$ mag star $\sim18\arcsec$ away.
+
+Finally, we note that this system is very similar to the well-studied quad lens RX J1131-1231 \citep{slu03}, in terms of image separation and overall configuration. However, our system appears to have a larger source redshift and brighter images by about 2 magnitudes \citep{slu06}. \citet{slu08} also measure flux discrepancies for RX J1131-1231, and show that these flux discrepancies can be explained by microlensing. 
+
+
+\acknowledgments
+
+We would like to thank Arunav Kundu, Shobita Satyapal, Nathan Secrest, Bryan Dorland and Valeri Makarov for useful discussions and help.
+The Pan-STARRS1 Surveys (PS1) and the PS1 public science archive have been made possible through contributions by the Institute for Astronomy, the University of Hawaii, the Pan-STARRS Project Office, the Max-Planck Society and its participating institutes, the Max Planck Institute for Astronomy, Heidelberg and the Max Planck Institute for Extraterrestrial Physics, Garching, The Johns Hopkins University, Durham University, the University of Edinburgh, the Queen's University Belfast, the Harvard-Smithsonian Center for Astrophysics, the Las Cumbres Observatory Global Telescope Network Incorporated, the National Central University of Taiwan, the Space Telescope Science Institute, the National Aeronautics and Space Administration under Grant No. NNX08AR22G issued through the Planetary Science Division of the NASA Science Mission Directorate, the National Science Foundation Grant No. AST-1238877, the University of Maryland, Eotvos Lorand University (ELTE), the Los Alamos National Laboratory, and the Gordon and Betty Moore Foundation.
+This work has made use of data from the European Space Agency (ESA)
+mission {\it Gaia} (\url{https://www.cosmos.esa.int/gaia}), processed by
+the {\it Gaia} Data Processing and Analysis Consortium (DPAC,
+\url{https://www.cosmos.esa.int/web/gaia/dpac/consortium}). Funding
+for the DPAC has been provided by national institutions, in particular
+the institutions participating in the {\it Gaia} Multilateral Agreement.
+
+\begin{thebibliography}{}
+
+\bibitem[Agnello et al.(2015)]{agn15} Agnello A., et al., 2015, MNRAS, 454, 1260 
+\bibitem[Arnouts et al.(1999)]{arn99} Arnouts S., Cristiani S., Moscardini L., Matarrese S., Lucchin F., Fontana A., Giallongo E., 1999, MNRAS, 310, 540
+
+\bibitem[Bertin \& Arnouts(1996)]{ber96} Bertin, E., \& Arnouts, S.\ 1996, \aaps, 117, 393 
+\bibitem[Bonvin et al.(2017)]{bon17} Bonvin V., et al., 2017, MNRAS, 465, 4914 
+\bibitem[Brewer \& Lewis(2008)]{bre08} Brewer, B.~J., \& Lewis, G.~F.\ 2008, \mnras, 390, 39 
+
+\bibitem[Chambers et al.(2016)]{cha16} Chambers, K.~C., Magnier, E.~A., Metcalfe, N., et al.\ 2016, arXiv:1612.05560 
+\bibitem[Chiba et al.(2005)]{chiba05} Chiba, M., Minezaki, T., Kashikawa, N., Kataza, H., \& Inoue, K.~T.\ 2005, \apj, 627, 53 
+
+
+\bibitem[Claeskens \& Surdej(2002)]{cla02} Claeskens, J.-F., \& Surdej, J.\ 2002, \aapr, 10, 263
+\bibitem[Condon et al.(1998)]{con98} Condon, J.~J., Cotton, W.~D., Greisen, E.~W., et al.\ 1998, \aj, 115, 1693 
+
+\bibitem[Dai et al.(2010)]{dai10} Dai X., Kochanek C.~S., Chartas G., Koz{\l}owski S., Morgan C.~W., Garmire G., Agol E., 2010, ApJ, 709, 278 
+\bibitem[Ding et al.(2017)]{din17} Ding X., et al., 2017, preprint (arXiv:1703.02041)
+
+\bibitem[Fadely \& Keeton(2012)]{fad12} Fadely R., Keeton C.~R., 2012, MNRAS, 419, 936 
+\bibitem[Finch \& Zacharias(2016)]{fin01} Finch, C.~T., \& Zacharias, N.\ 2016, AAS/Division of Dynamical Astronomy Meeting, 47, 203.03 
+\bibitem[Finkbeiner et al.(2016)]{fin16} Finkbeiner, D.~P., Schlafly, E.~F., Schlegel, D.~J., et al.\ 2016, \apj, 822, 66
+\bibitem[Foreman-Mackey(2016)]{for16} Foreman-Mackey, D. 2016, The Journal of Open Source Software, 24, doi:10.21105/joss.00024
+
+\bibitem[Gaia Collaboration et al.(2016)]{gaia} Gaia Collaboration, Brown, A.~G.~A., Vallenari, A., et al.\ 2016, \aap, 595, A2 
+\bibitem[Gelman(1995)]{gel95} Gelman A. et al., 1995, Bayesian Data Analysis. CRC Press, Boca Raton, FL
+
+\bibitem[Ilbert et al.(2006)]{ilb06} Ilbert O., et al., 2006, A\&A, 457, 841 
+
+\bibitem[Keeton(2001)]{kee01} Keeton, C.~R.\ 2001, arXiv:astro-ph/0102340 
+\bibitem[Keeton, Gaudi, \& Petters(2003)]{kee03} Keeton C.~R., Gaudi B.~S., Petters A.~O., 2003, ApJ, 598, 138 
+\bibitem[Kochanek et al.(2000)]{koc00} Kochanek C.~S., et al., 2000, ApJ, 543, 131 
+
+\bibitem[McKean et al.(2007)]{mck07} McKean J.~P., et al., 2007, MNRAS, 378, 109 
+\bibitem[Moffat (1969)]{mof69} Moffat, A. F. J.\ 1969, \aap, 3, 455
+\bibitem[Myers et al.(2003)]{mye03} Myers S.~T., et al., 2003, MNRAS, 341, 1 
+
+%% \bibitem[Mateos et al.(2012)]{mat12} Mateos, S., Alonso-Herrero, A., Carrera, F.~J., et al.\ 2012, \mnras, 426, 3271 
+\bibitem[Oguri et al.(2006)]{ogu06} Oguri M., et al., 2006, AJ, 132, 999
+\bibitem[Oguri \& Marshall(2010)]{ogu10} Oguri, M., \& Marshall, P.~J.\ 2010, \mnras, 405, 2579 
+\bibitem[Oguri (2010)]{ogu10b} Oguri M., 2010, PASJ, 62, 1017 
+\bibitem[Oguri et al.(2012)]{ogu12} Oguri M., et al., 2012, AJ, 143, 120
+\bibitem[Oguri, Rusu, \& Falco(2014)]{ogu14} Oguri M., Rusu C.~E., Falco E.~E., 2014, MNRAS, 439, 2494
+
+\bibitem[Onaka \& al.(2008)]{ona08} Onaka P., Tonry J.~L., Isani S., Lee A., Uyeshiro R., Rae C., Robertson L., Ching G., Proc.\ 2008, \procspie, 7014, 12
+\bibitem[Peng et al.(2006)]{peng06} Peng, C.~Y., Impey, C.~D., Rix, H.-W., et al.\ 2006, \apj, 649, 616 
+\bibitem[Peng et al.(2010)]{peng10} Peng, C.~Y., Ho, L.~C., Impey, C.~D., \& Rix, H.-W.\ 2010, \aj, 139, 2097 
+\bibitem[Reis et al.(2014)]{reis14} Reis, R.~C., Reynolds, M.~T., Miller, J.~M., \& Walton, D.~J.\ 2014, \nat, 507, 207 
+\bibitem[Richards et al.(2009)]{ric09} Richards G.~T., et al., 2009, ApJS, 180, 67 
+\bibitem[Rusu et al.(2016)]{rus16} Rusu C.~E., et al., 2016, MNRAS, 458, 2
+
+\bibitem[Schlafly \& Finkbeiner(2011)]{sch11} Schlafly, E.~F., \& Finkbeiner, D.~P.\ 2011, \apj, 737, 103 
+\bibitem[S{\'e}rsic (1963)]{ser63} S{\'e}rsic J.~L., 1963, BAAA, 6, 41 
+\bibitem[Secrest et al.(2015)]{sec01} Secrest, N.~J., Dudik, R.~P., Dorland, B.~N., et al.\ 2015, \apjs, 221, 12 
+\bibitem[Sluse et al.(2003)]{slu03} Sluse, D., Surdej, J., Claeskens, J.-F., et al.\ 2003, \aap, 406, L43 
+\bibitem[Sluse et al.(2006)]{slu06} Sluse, D., Claeskens, J.-F., Altieri, B., et al.\ 2006, \aap, 449, 539 
+\bibitem[Sluse et al.(2008)]{slu08} Sluse, D., Eigenbrod, A., Courbin, F., et al.\ 2008, Manchester Microlensing Conference, 20 
+\bibitem[Sluse et al.(2012)]{slu12} Sluse D., Hutsem{\'e}kers D., Courbin F., Meylan G., Wambsganss J., 2012, A\&A, 544, A62
+\bibitem[Sonnenfeld et al.(2017)]{son17} Sonnenfeld A., et al., 2017, arXiv, arXiv:1704.01585 
+
+\bibitem[Tonry \& Onaka(2008)]{ton09} Tonry J., Onaka P.\ 2009, in Ryan S., ed., 
+Proceedings of the Advanced Maui Optical and Space Surveillance Technologies Conference.
+The Maui Economic Development Board, Kihei, HI, p. E40
+\bibitem[Treu(2010)]{tre10} Treu, T.\ 2010, \araa, 48, 87
+\bibitem[Treu \& Marshall(2016)]{Tre16} Treu, T., \& Marshall, P.~J.\ 2016, \aapr, 24, 11 
+
+\bibitem[Walsh, Carswell, \& Weymann(1979)]{wal79} Walsh D., Carswell R.~F., Weymann R.~J., 1979, Natur, 279, 381 
+\bibitem[Wu \& Jia(2010)]{wu10} Wu, X.-B., \& Jia, Z.\ 2010, \mnras, 406, 1583 
+\bibitem[Wu et al.(2012)]{wu12} Wu, X.-B., Hao, G., Jia, Z., Zhang, Y., \& Peng, N.\ 2012, \aj, 144, 49 
+
+\bibitem[Yonehara et al.(2008)]{yon08} Yonehara, A., Hirashita, H., \& Richter, P.\ 2008, \aap, 478, 95
+\bibitem[York et al.(2000)]{york00} York, D.~G., Adelman, J., Anderson, J.~E., Jr., et al.\ 2000, \aj, 120, 1579 
+\bibitem[Zacharias et al.(2015)]{zac15} Zacharias, N., Finch, C., Subasavage, J., et al.\ 2015, \aj, 150, 101 
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{thebibliography}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{deluxetable}{l|ccccc}
+\tablecolumns{5}  
+\tablewidth{0pt} 
+\tabletypesize{\tiny}
+\setlength{\tabcolsep}{0.05in}
+\tablenum{1} %\\               
+\tablecaption{Relative astrometry and photometry}   
+\tablehead{
+\colhead{Property} & \colhead{A} & \colhead{B} & \colhead{C} & \colhead{D} & \colhead{G}\\
+}
+\startdata
+
+\tableline
+\multicolumn{4}{l}{\tiny {Measurements}}\\
+\tableline
+
+g & 15.60$\pm$0.01 &  15.72$\pm$0.01 &  16.45$\pm$0.02 & 18.09$\pm$0.01 & $\cdots$ \\
+r & 15.40$\pm$0.01 &  15.55$\pm$0.01 &  16.21$\pm$0.01 & 17.74$\pm$0.01 & $\cdots$ \\
+i & 15.36$\pm$0.01 &  15.57$\pm$0.02 &  16.15$\pm$0.02 & 17.74$\pm$0.02 & 19.50$\pm$0.20 \\
+z & 15.23$\pm$0.03 &  15.50$\pm$0.05 &  16.02$\pm$0.01 & 17.68$\pm$0.03 & 18.95$\pm$0.13 \\
+y & 14.92$\pm$0.01 &  15.23$\pm$0.02 & 15.76$\pm$0.02 & 17.36$\pm$0.02 & 19.20$\pm$0.24 \\
+%$\Delta$i & 0.0 & 0.21 & 0.79 & 2.38 & 4.14 \\
+$\Delta\alpha$cos($\delta$) & 0.000$\pm$0.004 & -1.185$\pm$0.004 & 1.271$\pm$0.005 & 0.410$\pm$0.004 & 0.240$\pm$0.050 \\
+$\Delta\delta$ & 0.000$\pm$0.004 & -0.441$\pm$0.004 & -0.074$\pm$0.004 & -3.310$\pm$ 0.004 & -2.310$\pm$0.025 \\
+%photoz & 0.818$^{+0.007}_{-0.009}$ & 0.732$^{+0.007}_{-0.006}$ & 0.912$^{+0.008}_{-0.009}$ & 0.914$^{+0.007}_{-0.009}$  \\
+
+\tableline
+\multicolumn{3}{l}{\tiny {Model prediction}}\\
+\tableline
+
+$\Delta$m & 0.0 &  0.580$^{+0.17}_{-0.020}$ & 0.626$^{+0.005}_{-0.009}$ & 3.55$\pm$0.06 \\
+
+
+\enddata
+
+
+\tablecomments{
+The first four columns are the four quasar images and the fifth column is the lens.
+The first five rows are magnitude measurements derived using Hostlens, corrected for extinction. 
+The next two rows are the relative positions of each object relative to A. We assume a pixel scale of $0.256\arcsec$. $\Delta\alpha$ is positive towards west, and $\Delta\delta$ towards north.
+%The following three rows are relative i magnitudes and relative positions in arcseconds averaged between the i and y bands. 
+%The next row shows the photometric redshift estimates following \citet{wu10}.
+The last row shows the model prediction for the relative magnitudes relative to image A, from the best-fit mass model.
+}
+\end{deluxetable}
+
+
+\begin{figure}
+\epsscale{1.1}
+\plottwo{f1.eps}{f2.eps}
+\caption{
+PS1 images of the lens candidate showing the four quasar images (A-D) with the lensing galaxy position G marked with and x. Left: close-up color image using the $g$ (blue), $i$ (green) and $y$ (red) filters. Right: $y$-band image of a 2 $\arcmin$ region around the system. The bright star south-east of the lens is saturated in the other bands.}
+\label{lens}
+\end{figure}
+
+
+\begin{figure}
+\epsscale{1.0}
+\plotone{f3.eps}
+\caption{
+Covariances between the parameters used to model the observed system in $i$-band with Hostlens. The three contour lines mark the 1-, 2- and 3-$\sigma$ limits. The vertical lines in the histograms mark the 16th, 50th and 84th percentiles. The parameters are, in order: FWHM in arcseconds, ellipticity, orientation, shape of the first Moffat profile (1,2,3,4), same for the second Moffat profile (5,6,7,8), relative flux as flux1/(flux1 + flux2) (9), sky level in counts (10), positions in pixels on the x and y axes of point-source A (11,12) and its flux in counts (13), and same for objects B,C,D (14-25).}
+\label{mcmc_hostlens}
+\end{figure}
+
+
+\begin{figure}
+\epsscale{1}
+\plotone{f4.eps}
+\caption{
+Original images ($10\arcsec\times10\arcsec$, first row) and residuals after subtracting the best-fit model with Hostlens. From left to right: $g$, $r$, $i$, $z$, $y$-band. In the second raw, the lensing galaxy is not including in the modeling, whereas in the third raw it is. The images are in linear scale, and cover the full dynamic range. Remaining structure in the residuals amounts to less than 6\% of the peak fluxes and can be attributed to large Poisson noise at the center of the point-like images, as well as to faint arcs expected from the lensed quasar host galaxy, which are not accounted for in the modeling.}
+\label{hostlens}
+\end{figure}
+
+
+\begin{figure}
+\epsscale{1.1}
+\plottwo{f5.eps}{f6.eps}
+\caption{
+Photometric redshift estimates using the method in \citet{wu10}. 
+Left: individually for each image; right: for all images simultanesously.}
+\label{redshift}
+\end{figure}
+
+
+\begin{figure}
+\epsscale{1.1}
+\plotone{f7.eps}
+\caption{
+Covariances between the parameters used to model the observed system with lensmodel. The three contour lines mark the 1-, 2- and 3-$\sigma$ limits. The vertical lines in the histograms mark the 16th, 50th and 84th percentiles. The parameters are, in order: Einstein radius, lensing galaxy x and y position, 2 paramaters for ellipticity and 2 for shear.}
+\label{mcmc_gravlens}
+\end{figure}
+
+\begin{figure}
+\epsscale{0.5}
+\plotone{f8.eps}
+\caption{
+Gravitational lens modeling. The blue and red lines show the critical curves and caustics, respectively. The green dot shows the quasar position in the source plane, and the black dots show the lens and the observed image positions.}
+\label{model}
+\end{figure}
+
+
+
+\begin{figure}
+%%\includegraphics[angle=179,height=3cm]{model-photometry.pdf}
+\epsscale{1.0}
+\plotone{f9.eps}
+\caption{
+Comparison between the observed quasar image magnitudes relative to image A (vertical colored lines) and the model predictions (blue histogram) for each PS1 band. The model predictions were drawn from a MCMC exploration of the range of models}
+\label{modelphot}
+\end{figure}
+
+
+
+\end{document}
